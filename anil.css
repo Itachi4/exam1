@@ -1,0 +1,85 @@
+.header{
+    text-align: center;
+    background: gold;
+    height: 45px;
+}
+.marq{
+    font-size: 23px;
+    height:35px;
+    animation: anime 5s infinite;
+}
+@keyframes anime{
+    0%{color:blue;}
+    10%{color: red;}
+    20%{color: brown;}
+    30%{color: purple;}
+    40%{color: crimson;}
+    50%{color: darkred;}
+    60%{color:blue;}
+    700%{color: red;}
+    80%{color: brown;}
+    90%{color: purple;}
+    100%{color: darkred;}
+}
+.nav{
+    background-color: goldenrod;
+    display: flex;
+}
+.nav > div {
+    border: 2px solid black;
+    padding: 4px;
+    margin: 2px;
+}
+.nav >:hover{
+    background-color: chocolate;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(5,305px);
+    grid-template-columns:repeat(4,280px);
+}
+.container > div{
+    padding: 5px;
+    margin: 5px;
+    background-color: #ebdc0d;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:solid;
+    text-shadow: grey;
+}
+.div1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.div2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.div3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.div4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.div5{
+    grid-column: 3/4;
+    grid-row:1/2;
+}
+.div6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.div7{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.container > :hover{
+    background-color: chocolate;
+}
